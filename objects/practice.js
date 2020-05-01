@@ -160,7 +160,7 @@ const makePerson = (name, birthday, ssn) => {
 */
 
 const makeCard = (cardNumber, expirationDate, securityCode) => {
-  obj = {
+  let obj = {
     cardNumber,
     expirationDate,
     securityCode

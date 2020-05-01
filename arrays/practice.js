@@ -44,7 +44,7 @@ var family = ["Tyler", "Jordyn", "Ryan", "Chelsey", "Ireland"];
 */
 
 const looper = (arr) => {
-  for (i = 0; i < arr.length; i++) {
+  for (let i = 0; i < arr.length; i++) {
     alert(arr[i]);
   }
 };
